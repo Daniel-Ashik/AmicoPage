@@ -1,0 +1,126 @@
+
+
+#atag{
+    color:#006997;
+    font-weight: 800;
+}
+#atag:hover{
+    color:cadetblue;
+    text-decoration: underline cadetblue;
+}
+.container{
+    position: relative;
+    text-align: start;
+}
+.centered{
+    position: absolute;
+    top: 55%;
+    left: 31%;
+}
+#img72{
+    padding-top:255px;
+    width:50%;
+}
+#bgimage{
+    background-image: url("images/Group\ 73.png");
+    background-size: cover;
+}
+#developmentimages{
+    color: #1B7299;
+    font-weight: 900;
+}
+#testing{
+    position: relative;
+    left: 50%;
+    width: 50%;
+    top: 32px;
+}
+#explain>img{
+    width: 30%;
+    position: relative;
+}
+#explain>span{
+    color: #1B7299;
+    font-weight: 900;
+    position:relative;
+    top: 23px;
+    right: 15px;
+}
+#explain>p{
+    text-align: justify;
+    color: #1A78A1;
+}
+#detailsbg1{
+    background-color: #BEEBFF;
+}
+
+#details1>p{
+    color:#015F89;
+    font-weight: 900;
+}
+#details1>span>a{
+    color:#015F89;
+    /* font-weight: 700; */
+    text-decoration: none;
+}
+#playsymbol{
+    color: #056C99;
+}
+#details1>span>span{
+    color:#015F89;
+    /* font-weight: 700; */
+}
+::placeholder{
+    color: #006997;
+    font-weight: 600;
+}
+hr.solid{
+    border-top:7px solid #064966;
+    width: 60%;
+}
+#footer>span{
+    color: #025B82;
+    font-weight: 700;
+}
+@media screen and (min-width:992px){
+    #img72{
+        width: 80%;
+        padding-top: 0px;
+    }
+    
+}
+@media screen  and (min-width:768px){
+    #developmentsection>div>div>img{
+        width:80%;
+    }
+    #mobile{
+        width: 60%;
+    }
+}
+@media screen and (max-width:768px){
+    #mobile{
+        width:45%;
+    }
+}
+@media screen and (min-width:0px) and (max-width:992px){
+    #group8img{
+        display: none;margin: 0 auto;
+    }
+}
+@media screen and (max-width:768px){
+    #detailsbg1{
+        text-align: center;
+        margin-top: 30%;
+    }
+}
+
+/* @media screen and (min-width:576px)
+    #developmentsection>div>div>img{
+        width:60%;
+    }
+} */
+/* @media screen and (max-width:576px){
+    #developmentsection>div>div{
+        width: 33%;
+    }
+} */
